@@ -1,2 +1,3 @@
 # My-Open-API-Project
-My Open API Project for Code The Dream
+
+The Open API Project of Maria Zasypkina for the Code The Dream

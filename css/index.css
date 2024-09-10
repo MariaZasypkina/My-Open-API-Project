@@ -5,11 +5,6 @@ font-size: 18px;
 font-weight: 600;
 }
 
-header {
-
-
-}
-
 h1 {
 color: dimgray;
 text-align: center;
@@ -30,4 +25,22 @@ h3 {
     text-align: justify;
     font-size: medium;
     color: rgb(61, 60, 60);;
+}
+
+.artworks-container {
+    justify-content: space-evenly;
+}
+
+.artworks-container img {
+    width:fit-content;
+    height: auto;
+    border: 1px;
+}
+
+#refresh-button:hover {
+    cursor: pointer;
+}
+
+#close-button:hover {
+    cursor: pointer;
 }

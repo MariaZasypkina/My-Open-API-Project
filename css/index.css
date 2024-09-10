@@ -1,6 +1,8 @@
 body {
-
-
+background-color: beige;
+letter-spacing: 2px;
+font-size: 18px;
+font-weight: 600;
 }
 
 header {
@@ -9,11 +11,23 @@ header {
 }
 
 h1 {
-
-
+color: dimgray;
+text-align: center;
+letter-spacing: 2px;
+font-size: 30px;
+font-weight: 600;
 }
 
 h2 {
+color: dimgray;
+text-align: center;
+letter-spacing: 2px;
+font-size: 25px;
+font-weight: 600;
+}
 
-    
+h3 {
+    text-align: justify;
+    font-size: medium;
+    color: rgb(61, 60, 60);;
 }

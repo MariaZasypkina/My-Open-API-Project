@@ -1,5 +1,5 @@
 body {
-background-color: beige;
+background-color: rgb(238, 217, 175);
 letter-spacing: 2px;
 font-size: 18px;
 font-weight: 600;
@@ -9,7 +9,7 @@ h1 {
 color: dimgray;
 text-align: center;
 letter-spacing: 2px;
-font-size: 30px;
+font-size: 40px;
 font-weight: 600;
 }
 
@@ -27,14 +27,27 @@ h3 {
     color: rgb(61, 60, 60);;
 }
 
-.artworks-container {
-    justify-content: space-evenly;
+#artworks {
+    justify-content: center;
+
 }
 
-.artworks-container img {
+
+#artworks-container {
+    justify-content: space-between;
+    gap: 5px;
+}
+
+#artworks-container img {
     width:fit-content;
-    height: auto;
-    border: 1px;
+    height: 200px;
+}
+
+#refresh-button,
+#close-button {
+
+    padding: 10px;
+    border-radius: 5px;
 }
 
 #refresh-button:hover {
@@ -43,4 +56,9 @@ h3 {
 
 #close-button:hover {
     cursor: pointer;
+}
+
+#exhibitions {
+
+    text-align: center;
 }

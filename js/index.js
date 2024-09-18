@@ -96,8 +96,10 @@ function displayArtworkDetails(artwork) {
   // Adding event for the 'Close' button
   document.getElementById('close-button').addEventListener('click', () => {
     let artworkDetailsContainer = document.getElementById('one-selected-artwork-container');
-    artworkDetailsContainer.style.display = 'none'; // Скрываем секцию с деталями
+    artworkDetailsContainer.style.display = 'none'; // Hiding section with art details
   });
+
+  //Hiding section with art details while no art is selected
   
   // Adding event for the Refreshing button
   document.getElementById('refresh-button').addEventListener('click', () => {
